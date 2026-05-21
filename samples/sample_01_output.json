@@ -1,0 +1,22 @@
+{
+  "risks": [
+    {
+      "risk": "借入金増加リスク",
+      "evidence": "借入金は増加しており、設備更新に伴う資金需要がある"
+    }
+  ],
+  "missing_information": [
+    "返済計画",
+    "新規顧客開拓進度"
+  ],
+  "hearing_questions": [
+    {
+      "question": "借入金の返済計画はどの期間ですか？",
+      "priority": "high",
+      "reason": "資金繰り確認のため",
+      "evidence": "借入金が増加しており、設備更新に伴う資金需要がある"
+    }
+  ],
+  "confidence": 0.6,
+  "needs_review": true
+}
