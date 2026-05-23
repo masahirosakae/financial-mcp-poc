@@ -158,7 +158,7 @@ Inspector上で各toolおよび `run_business_evaluation_workflow` を実行で�
 }
 ```
  
-`needs_review = true` の場合は human-in-the-loop によるレビューに振り分ける想定です。
+`needs_review = true` の場合は human-in-the-loop によるレビューにて振り分ける想定です。
  
 ---
  
