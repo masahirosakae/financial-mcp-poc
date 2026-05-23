@@ -39,7 +39,7 @@ LLM推論はローカルのOllamaに集約されます。
  
 ---
  
-## 業務フロー
+## ワークフロー（業務フローを想定）
  
 `run_business_evaluation_workflow()` は、以下のMCP toolを chaining して最終レポートを生成します。
  
@@ -162,13 +162,13 @@ Inspector上で各toolおよび `run_business_evaluation_workflow` を実行で�
  
 ---
  
-## Sample Cases
+## サンプル事例
  
 - **sample_01** — 製造業 / 設備投資リスクケース（売上微減・借入金増加・新規設備投資・顧客集中）
 - **sample_02** — 入力不足時の fallback ケース（企業概要・財務情報の欠落）
 ---
  
-## Evaluation Metrics
+## 評価指標
  
 評価観点は以下のとおり。詳細は [`metrics.md`](./metrics.md) を参照。
  
